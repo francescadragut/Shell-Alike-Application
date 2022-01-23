@@ -18,6 +18,7 @@ Additional functionalities:
       - only >, >> and < work for all "head" parameters; they are not fully implemented for combinations in "head" 
       
 - possible combinations supported (IMPORTANT! YOU CAN REPLACE THE FILE NAMES WITH ANY FILE YOU HAVE, THESE ARE JUST THE ONES THAT I USED):
+
       - cat 
       - cat textfile.txt
       - cat -
