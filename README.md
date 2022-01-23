@@ -19,22 +19,22 @@ Additional functionalities:
       
 - possible combinations supported (IMPORTANT! YOU CAN REPLACE THE FILE NAMES WITH ANY FILE YOU HAVE, THESE ARE JUST THE ONES THAT I USED):
 
-      - cat 
-      - cat textfile.txt
-      - cat -
-      - cat textfile.txt numbers.txt ... (works on any number of files)
-      - cat textfile.txt - numbers.txt (works for only 1 more file after the standard input; also, works for only one such standard input)
-      - cat textfile.txt -
+      > cat 
+      > cat textfile.txt
+      > cat -
+      > cat textfile.txt numbers.txt ... (works on any number of files)
+      > cat textfile.txt - numbers.txt (works for only 1 more file after the standard input; also, works for only one such standard input)
+      > cat textfile.txt -
       - all combinations above work for >, >>, <, << redirection types
      
-      - head
-      - head textfile.txt
-      - head -
-      - head textfile.txt numbers.txt ... (works on ant number of files)
+      > head
+      > head textfile.txt
+      > head -
+      > head textfile.txt numbers.txt ... (works on ant number of files)
       - all combinations above work for >, >>, < redirection types
       - head also works on standard input (-), but does not have the best results and can be glitchy
 
-      - env
-      - env -u FIELDNAME (you can see all possible fieldnames by executing simple env, they are the ones in capital letters at the beginning of the lines)
-      - env -u FIELDNAME cat ... (works with any mentioned combination for cat)
-      - env -u FIELDNAME head ... (works with any mentioned combination for head)
+      > env
+      > env -u FIELDNAME (you can see all possible fieldnames by executing simple env, they are the ones in capital letters at the beginning of the lines)
+      > env -u FIELDNAME cat ... (works with any mentioned combination for cat)
+      > env -u FIELDNAME head ... (works with any mentioned combination for head)
