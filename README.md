@@ -17,9 +17,9 @@ Additional functionalities:
       - all of them work for all possible combinations for the function "cat"
       - only >, >> and < work for all "head" parameters; they are not fully implemented for combinations in "head" 
       
-- possible combinations supported (IMPORTANT! YOU CAN REPLACE THE FILE NAMES WITH ANY FILE YOU HAVE, THESE ARE JUST THE ONES THAT I USED):
+- possible combinations supported:
 
-      > cat 
+      > `cat`
       > cat textfile.txt
       > cat -
       > cat textfile.txt numbers.txt ... (works on any number of files)
