@@ -7,9 +7,9 @@ FUNCTIONALITIES: The following commands are included, along with their parameter
 1. The "cat" command. Parameters implemented are: -b -E -n -s; also implemented all possible combinations
 2. The "head" command. Parameters implemented are: -c, -n, -q, -v; also implemented all possible combinations
 3. The "env" command. Parameters implemented are: -u
-4. The program also supports pipes in the commands, e.g. > `ls -l | grep -e 'tmp' | wc -l `(it works with any type of command)
-5. The program also supports redirection in the commands, e.g. > `ls -l > out.txt` (it works with any type of command)
-6. The program supports both pipes and redirection in the same command line, e.g. > `ls -l | grep -e 'tmp' > out.txt `(it works with any type of command)
+4. The program also supports pipes in the commands, e.g. `> ls -l | grep -e 'tmp' | wc -l` (it works with any type of command)
+5. The program also supports redirection in the commands, e.g. `> ls -l > out.txt` (it works with any type of command)
+6. The program supports both pipes and redirection in the same command line, e.g. `> ls -l | grep -e 'tmp' > out.txt` (it works with any type of command)
 
 Additional functionalities:
 - history for previously used commands
